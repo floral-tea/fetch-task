@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fetch-task"
+version = "0.1.0"
+description = ""
+authors = ["floral-tea"]
+readme = "README.md"
+packages = [{include = "fetch_task"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.4.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
