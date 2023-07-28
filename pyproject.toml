@@ -9,9 +9,12 @@ packages = [{include = "fetch_task"}]
 [tool.poetry.dependencies]
 python = "^3.9"
 fire = "^0.5.0"
+validators = "^0.20.0"
+rich = "^13.4.2"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.4.1"
+pytest = "^7.4.0"
 
 [build-system]
 requires = ["poetry-core"]
